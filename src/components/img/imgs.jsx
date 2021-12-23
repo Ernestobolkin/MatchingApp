@@ -4,7 +4,7 @@ import "./img.scss";
 
 export class Img extends React.Component {
   renderImg = () => {
-    return <img src={this.props.url} />;
+    return <img src={this.props.url} alt="Random Img" />;
   };
 
   render() {
